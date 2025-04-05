@@ -279,11 +279,17 @@
   grid-row-gap: 8px;
   color: #ffffff80;
   text-align: center;
+  flex: none;
   justify-content: flex-end;
-  align-items: flex-end;
-  padding-top: 12px;
-  font-family: Inconsolata, monospace;
-  font-size: 15px;
+  align-items: center;
+  width: auto;
+  height: auto;
+  padding-top: 0;
+  padding-left: 9px;
+  font-family: Great Vibes, cursive;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
 }
 
 .text-block.plat {
@@ -415,6 +421,21 @@
 .code-embed {
   justify-content: center;
   align-items: center;
+  display: flex;
+}
+
+.div-block-2 {
+  background-color: #ffffff40;
+  width: 100%;
+  height: 1px;
+}
+
+.container-7 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12px;
   display: flex;
 }
 
