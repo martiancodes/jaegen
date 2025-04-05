@@ -85,6 +85,15 @@
   background-color: #fff;
 }
 
+.link.martian {
+  color: #ffffff80;
+  font-size: 14px;
+}
+
+.link.martian:hover {
+  color: #fff;
+}
+
 .link-2 {
   color: #fff;
   letter-spacing: 0;
@@ -263,6 +272,18 @@
   font-size: 21px;
   font-weight: 400;
   line-height: 36px;
+}
+
+.text-block.about.builder {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  color: #ffffff80;
+  text-align: center;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 12px;
+  font-family: Inconsolata, monospace;
+  font-size: 15px;
 }
 
 .text-block.plat {
