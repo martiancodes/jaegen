@@ -435,6 +435,7 @@
   grid-row-gap: 0px;
   justify-content: center;
   align-items: center;
+  width: 100%;
   padding-top: 12px;
   display: flex;
 }
@@ -603,6 +604,10 @@
     display: block;
   }
 
+  .text-block.about.builder {
+    padding-right: 0;
+  }
+
   .text-block.diamond, .text-block.gold {
     text-shadow: none;
   }
@@ -634,6 +639,11 @@
     margin-left: 0;
     margin-right: 0;
     padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .container-7 {
     padding-left: 12px;
     padding-right: 12px;
   }
